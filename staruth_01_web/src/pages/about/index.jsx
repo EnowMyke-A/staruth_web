@@ -1,6 +1,6 @@
 import React from "react";
 import AboutHeroComponent from "./hero_section/hero";
-import "about.css";
+import "./about.css";
 
 const AboutPage = () => {
   return (

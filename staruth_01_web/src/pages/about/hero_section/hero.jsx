@@ -1,5 +1,5 @@
 import React from "react";
-import "hero.css";
+import "./hero.css";
 
 const AboutHeroComponent = () => {
   return <div className="about-hero-section"></div>;

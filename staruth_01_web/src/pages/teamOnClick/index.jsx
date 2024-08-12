@@ -1,6 +1,6 @@
 import React from "react";
 import TeamOnClickHeroComponent from "./hero_section/hero";
-import "team.css";
+import "./team.css";
 
 const TeamPage = () => {
   return (
