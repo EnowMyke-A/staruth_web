@@ -16,16 +16,16 @@ import "./App.css";
 function App() {
   return (
     <div className="main-body">
-      <NavbarComponent />
       <Router>
+        <NavbarComponent />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/team" element={<TeamPage />} />
+          <Route path="/about/team" element={<TeamPage />} />
         </Routes>
+        <FooterComponent />
       </Router>
-      <FooterComponent />
     </div>
   );
 }
